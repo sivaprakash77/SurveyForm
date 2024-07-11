@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    width: 520px;
+    height: 570px;
+    border: 50px solid orange;
+    border-left: 10px solid rgb(244, 195, 104);
+    border-right: 10px solid rgb(244, 195, 104) ;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 83px;
+    color: rgb(255, 166, 0);
+    font-size: 23px;
+}
+.header img{
+    width:20%;
+}
+.formcontainer{
+    padding-top: 15px;
+    padding-left: 40px;
+    font-size: 25px;
+}
+#ln{
+    padding-left: 80px;
+}
+.inputdiv{
+    padding-left:40px;
+}
+.inputdiv input{
+    padding: 3px 20px;
+}
+.emaildiv{
+    padding-left:40px;
+    font-size: 25px;
+}
+.emaildiv input{
+    padding: 3px 125px;
+}
+.ratingdiv{
+    font-size: 25px;
+    padding-left:40px;
+}
+
+span{
+    color:gray;
+}
+.checked{
+    color:orange;
+}
+.checkbox{
+    padding-left: 40px;
+}
+.mainchdiv{
+    padding-top: 10px;
+    padding-left: 42px;
+    display: flex;
+}
+#rep{
+    padding-left: 40px;
+    font-size: 25px;
+}
+.icheckbox{
+    width:40%;
+    font-size: 25px;
+    height:120px;
+}
+.i1checkbox{
+    padding-left: 20px;
+    width:40%;
+    font-size: 25px;
+    height:120px;
+}
+.buttondiv{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+button{
+    border:none;
+    color:white;
+    background-color: lightsalmon;
+    padding: 10px 170px;
+}
